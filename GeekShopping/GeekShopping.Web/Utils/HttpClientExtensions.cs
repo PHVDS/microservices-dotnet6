@@ -13,7 +13,7 @@ namespace GeekShopping.Web.Utils
 		{
 			if (!response.IsSuccessStatusCode) throw
 					new ApplicationException(
-						$"Algo deu errado chamando a API: " +
+						$"Algo deu errado ao chamar a API: " +
 						$"{response.ReasonPhrase}"
 					);
 			var dataAsString = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
