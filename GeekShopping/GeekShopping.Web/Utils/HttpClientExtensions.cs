@@ -11,8 +11,7 @@ namespace GeekShopping.Web.Utils
 		private static MediaTypeHeaderValue contentType = new MediaTypeHeaderValue("application/json");
 		public static async Task<T> ReadContentAs<T>(this HttpResponseMessage response)
 		{
-			if (!response.IsSuccessStatusCode) throw
-					new ApplicationException(
+			if (!response.IsSuccessStatusCode) throw new ApplicationException(
 						$"Algo deu errado ao chamar a API: " +
 						$"{response.ReasonPhrase}"
 					);
