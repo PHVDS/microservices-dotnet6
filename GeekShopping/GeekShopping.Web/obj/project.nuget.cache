@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EdXailuT1yeC/hpJA2SfUrYLavMacYoWum2+drm3S9YU2j1v+1bh41mKRuRETAYlTuSihTcZWafldbg+nbPKMg==",
+  "dgSpecHash": "w5lOfLYzi/8SLrfW8gq5h5eZKdqpMN3yvQrSXJswUV5azirliDo0pW4dSBBE4GKws393oaNptlsG26F2ONmtIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PAULO HENRIQUE\\Documents\\Visual Studio 2022\\microservices-dotnet6\\GeekShopping\\GeekShopping.Web\\GeekShopping.Web.csproj",
+  "projectFilePath": "C:\\Users\\Paulo Henrique\\Source\\Repos\\PHVDS\\microservices-dotnet6\\GeekShopping\\GeekShopping.Web\\GeekShopping.Web.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
