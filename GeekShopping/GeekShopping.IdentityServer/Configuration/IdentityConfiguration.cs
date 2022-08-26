@@ -1,4 +1,5 @@
-﻿using Duende.IdentityServer.Models;
+﻿using Duende.IdentityServer;
+using Duende.IdentityServer.Models;
 
 namespace GeekShopping.IdentityServer.Configuration
 {
@@ -31,7 +32,22 @@ namespace GeekShopping.IdentityServer.Configuration
                     ClientSecrets = { new Secret("my_super_secret".Sha256()) },
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
                     AllowedScopes = { "read", "write", "profile" }
-                }
-            };
+                },
+				new Client
+				{
+					ClientId = "geek_shopping",
+					ClientSecrets = { new Secret("my_super_secret".Sha256()) },
+					AllowedGrantTypes = GrantTypes.Code,
+                    RedirectUris = { "http://localhost:6375/signin-oidc" },
+                    PostLogoutRedirectUris = { "http://localhost:6375/signout-callback-oidc" },
+					AllowedScopes = new List<string>
+                    { 
+                        IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServerConstants.StandardScopes.Profile,
+                        IdentityServerConstants.StandardScopes.Email,
+                        "geek_shopping"
+                    }
+				}
+			};
     }
 }
