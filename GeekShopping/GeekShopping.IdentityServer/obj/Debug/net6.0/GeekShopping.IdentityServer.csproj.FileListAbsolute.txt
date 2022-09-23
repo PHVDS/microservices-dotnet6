@@ -1,0 +1,9 @@
+C:\Users\Paulo Henrique\source\repos\PHVDS\microservices-dotnet6\GeekShopping\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.csproj.AssemblyReference.cache
+C:\Users\Paulo Henrique\source\repos\PHVDS\microservices-dotnet6\GeekShopping\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paulo Henrique\source\repos\PHVDS\microservices-dotnet6\GeekShopping\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.AssemblyInfoInputs.cache
+C:\Users\Paulo Henrique\source\repos\PHVDS\microservices-dotnet6\GeekShopping\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.AssemblyInfo.cs
+C:\Users\Paulo Henrique\source\repos\PHVDS\microservices-dotnet6\GeekShopping\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.csproj.CoreCompileInputs.cache
+C:\Users\Paulo Henrique\source\repos\PHVDS\microservices-dotnet6\GeekShopping\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Paulo Henrique\source\repos\PHVDS\microservices-dotnet6\GeekShopping\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Paulo Henrique\source\repos\PHVDS\microservices-dotnet6\GeekShopping\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.RazorAssemblyInfo.cache
+C:\Users\Paulo Henrique\source\repos\PHVDS\microservices-dotnet6\GeekShopping\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.RazorAssemblyInfo.cs

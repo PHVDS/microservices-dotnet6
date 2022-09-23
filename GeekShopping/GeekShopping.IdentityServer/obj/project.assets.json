@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Duende.IdentityServer/6.1.4": {
+      "Duende.IdentityServer/6.1.5": {
         "type": "package",
         "dependencies": {
-          "Duende.IdentityServer.Storage": "6.1.4",
+          "Duende.IdentityServer.Storage": "6.1.5",
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": "6.0.0"
         },
         "compile": {
@@ -22,10 +22,10 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Duende.IdentityServer.AspNetIdentity/6.1.4": {
+      "Duende.IdentityServer.AspNetIdentity/6.1.5": {
         "type": "package",
         "dependencies": {
-          "Duende.IdentityServer": "6.1.4"
+          "Duende.IdentityServer": "6.1.5"
         },
         "compile": {
           "lib/net6.0/Duende.IdentityServer.AspNetIdentity.dll": {
@@ -41,7 +41,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Duende.IdentityServer.Storage/6.1.4": {
+      "Duende.IdentityServer.Storage/6.1.5": {
         "type": "package",
         "dependencies": {
           "IdentityModel": "6.0.0",
@@ -689,45 +689,45 @@
     }
   },
   "libraries": {
-    "Duende.IdentityServer/6.1.4": {
-      "sha512": "m8gfAcih1h5I8X4HVLVS4Pm+TQbTemfAz0tQQRgpYbJPuMHle0e2pXcfDaxn7014uHwR/WP67jJkFIJQMreDzg==",
+    "Duende.IdentityServer/6.1.5": {
+      "sha512": "9ZoTL6mBWCfMk88L2hpdVaRHZ/PASRuuLm/y9oHBFV8m3kq47xvynsqACJM/X1FHOdv0OXoWQwSfnW6LfzWYaA==",
       "type": "package",
-      "path": "duende.identityserver/6.1.4",
+      "path": "duende.identityserver/6.1.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "duende.identityserver.6.1.4.nupkg.sha512",
+        "duende.identityserver.6.1.5.nupkg.sha512",
         "duende.identityserver.nuspec",
         "icon.png",
         "lib/net6.0/Duende.IdentityServer.dll",
         "lib/net6.0/Duende.IdentityServer.xml"
       ]
     },
-    "Duende.IdentityServer.AspNetIdentity/6.1.4": {
-      "sha512": "udxaH/aKtiKfl5K5YsIo9Byhbfn9V0ARDnozddkFdFzhNV0p9LRyxQN7nDUN7+Mtc96cY5+fuB4p+B2D8v7mXA==",
+    "Duende.IdentityServer.AspNetIdentity/6.1.5": {
+      "sha512": "v57c/jeDieq/mJ4+rYMq8c1n0PQO/ce8FI6n4kx06rVPHoHBZQUMBingIT9O9Ty/Un+RP6DTqzAZMougtitevQ==",
       "type": "package",
-      "path": "duende.identityserver.aspnetidentity/6.1.4",
+      "path": "duende.identityserver.aspnetidentity/6.1.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "duende.identityserver.aspnetidentity.6.1.4.nupkg.sha512",
+        "duende.identityserver.aspnetidentity.6.1.5.nupkg.sha512",
         "duende.identityserver.aspnetidentity.nuspec",
         "icon.png",
         "lib/net6.0/Duende.IdentityServer.AspNetIdentity.dll",
         "lib/net6.0/Duende.IdentityServer.AspNetIdentity.xml"
       ]
     },
-    "Duende.IdentityServer.Storage/6.1.4": {
-      "sha512": "ViXN/HHfbWcLjOzGTrZlebpl5Gbji6llSljlE8S8JxKyum6zCyA9Rd1GpQGxMtTSUsNY9EW3MRTIgBHMACRE4w==",
+    "Duende.IdentityServer.Storage/6.1.5": {
+      "sha512": "5pJkmbSqumSMJl7SYdNo/ZZPEItjVd5jiZi7q6xXobdVT1ZNmjvGKAAVyE9fdIq+6CHj3pgYEORBhoPtedvgqg==",
       "type": "package",
-      "path": "duende.identityserver.storage/6.1.4",
+      "path": "duende.identityserver.storage/6.1.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "duende.identityserver.storage.6.1.4.nupkg.sha512",
+        "duende.identityserver.storage.6.1.5.nupkg.sha512",
         "duende.identityserver.storage.nuspec",
         "icon.png",
         "lib/net6.0/Duende.IdentityServer.Storage.dll",
@@ -1697,7 +1697,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Duende.IdentityServer.AspNetIdentity >= 6.1.4",
+      "Duende.IdentityServer.AspNetIdentity >= 6.1.5",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.8",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.8",
       "Pomelo.EntityFrameworkCore.MySql >= 6.0.2"
@@ -1709,11 +1709,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Paulo Henrique\\Source\\Repos\\PHVDS\\microservices-dotnet6\\GeekShopping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
+      "projectUniqueName": "C:\\Users\\Paulo Henrique\\source\\repos\\PHVDS\\microservices-dotnet6\\GeekShopping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
       "projectName": "GeekShopping.IdentityServer",
-      "projectPath": "C:\\Users\\Paulo Henrique\\Source\\Repos\\PHVDS\\microservices-dotnet6\\GeekShopping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
+      "projectPath": "C:\\Users\\Paulo Henrique\\source\\repos\\PHVDS\\microservices-dotnet6\\GeekShopping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
       "packagesPath": "C:\\Users\\Paulo Henrique\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Paulo Henrique\\Source\\Repos\\PHVDS\\microservices-dotnet6\\GeekShopping\\GeekShopping.IdentityServer\\obj\\",
+      "outputPath": "C:\\Users\\Paulo Henrique\\source\\repos\\PHVDS\\microservices-dotnet6\\GeekShopping\\GeekShopping.IdentityServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Paulo Henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1744,7 +1744,7 @@
         "dependencies": {
           "Duende.IdentityServer.AspNetIdentity": {
             "target": "Package",
-            "version": "[6.1.4, )"
+            "version": "[6.1.5, )"
           },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",

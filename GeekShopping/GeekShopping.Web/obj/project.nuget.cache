@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w5lOfLYzi/8SLrfW8gq5h5eZKdqpMN3yvQrSXJswUV5azirliDo0pW4dSBBE4GKws393oaNptlsG26F2ONmtIg==",
+  "dgSpecHash": "WfY6DXpqCRjghGKv7kOPgA+ZyYWx9UhlZh6eS7Yvil6fHjfjSMimmq9hVt4iung1Ka5JGKx3ahUXCXLg1NbPrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Paulo Henrique\\Source\\Repos\\PHVDS\\microservices-dotnet6\\GeekShopping\\GeekShopping.Web\\GeekShopping.Web.csproj",
+  "projectFilePath": "C:\\Users\\Paulo Henrique\\source\\repos\\PHVDS\\microservices-dotnet6\\GeekShopping\\GeekShopping.Web\\GeekShopping.Web.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

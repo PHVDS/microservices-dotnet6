@@ -1,8 +1,12 @@
 using GeekShopping.IdentityServer.Configuration;
 using GeekShopping.IdentityServer.Model;
 using GeekShopping.IdentityServer.Model.Context;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,10 +31,13 @@ var build = builder.Services.AddIdentityServer(options =>
         options.EmitStaticAudienceClaim = true;
     }
 ).AddInMemoryIdentityResources(IdentityConfiguration.IdentityResources)
-    .AddInMemoryClients(IdentityConfiguration.Clients)
-    .AddAspNetIdentity<ApplicationUser>();
+ .AddInMemoryApiScopes(IdentityConfiguration.ApiScopes)
+ .AddInMemoryClients(IdentityConfiguration.Clients)
+ .AddAspNetIdentity<ApplicationUser>();
 
 build.AddDeveloperSigningCredential();
+
+builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
@@ -39,6 +46,7 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
 }
+app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();

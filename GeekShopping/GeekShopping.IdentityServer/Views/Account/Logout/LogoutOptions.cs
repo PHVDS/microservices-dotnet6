@@ -1,5 +1,5 @@
 
-namespace foo.Pages.Logout;
+namespace Pages.Logout;
 
 public class LogoutOptions
 {

@@ -1,4 +1,4 @@
-namespace foo.Pages.Grants;
+namespace Pages.Grants;
 
 public class ViewModel
 {

@@ -1,4 +1,6 @@
-namespace foo.Pages.Login;
+using System;
+
+namespace Pages.Login;
 
 public class LoginOptions
 {

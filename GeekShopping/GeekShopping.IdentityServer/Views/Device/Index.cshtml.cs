@@ -4,13 +4,14 @@ using Duende.IdentityServer.Extensions;
 using Duende.IdentityServer.Models;
 using Duende.IdentityServer.Services;
 using Duende.IdentityServer.Validation;
-using foo.Pages.Consent;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Options;
+using IdentityServerHost.Quickstart.UI;
+using Microsoft.Extensions.Logging;
 
-namespace foo.Pages.Device;
+namespace Pages.Device;
 
 [SecurityHeaders]
 [Authorize]
@@ -56,7 +57,8 @@ public class Index : PageModel
             return Page();
         }
 
-        Input = new InputModel { 
+        Input = new InputModel
+        {
             UserCode = userCode,
         };
 

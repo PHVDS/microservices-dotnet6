@@ -1,7 +1,9 @@
 // Copyright (c) Duende Software. All rights reserved.
 // See LICENSE in the project root for license information.
 
-namespace foo.Pages.Consent;
+using System.Collections.Generic;
+
+namespace Pages.Consent;
 
 public class InputModel
 {

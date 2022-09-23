@@ -1,4 +1,4 @@
-namespace foo.Pages.Device;
+namespace Pages.Device;
 
 public class InputModel
 {

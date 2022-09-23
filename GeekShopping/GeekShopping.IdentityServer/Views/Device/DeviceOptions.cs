@@ -2,7 +2,7 @@
 // See LICENSE in the project root for license information.
 
 
-namespace foo.Pages.Device;
+namespace Pages.Device;
 
 public class DeviceOptions
 {

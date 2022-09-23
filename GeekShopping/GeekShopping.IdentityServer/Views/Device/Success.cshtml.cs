@@ -1,7 +1,8 @@
+using IdentityServerHost.Quickstart.UI;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace foo.Pages.Device;
+namespace Pages.Device;
 
 [SecurityHeaders]
 [Authorize]

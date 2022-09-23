@@ -2,7 +2,7 @@
 // See LICENSE in the project root for license information.
 
 
-namespace foo.Pages.Consent;
+namespace Pages.Consent;
 
 public class ConsentOptions
 {

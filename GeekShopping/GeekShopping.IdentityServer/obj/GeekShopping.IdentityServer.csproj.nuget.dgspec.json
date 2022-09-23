@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Paulo Henrique\\Source\\Repos\\PHVDS\\microservices-dotnet6\\GeekShopping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj": {}
+    "C:\\Users\\Paulo Henrique\\source\\repos\\PHVDS\\microservices-dotnet6\\GeekShopping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Paulo Henrique\\Source\\Repos\\PHVDS\\microservices-dotnet6\\GeekShopping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj": {
+    "C:\\Users\\Paulo Henrique\\source\\repos\\PHVDS\\microservices-dotnet6\\GeekShopping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Paulo Henrique\\Source\\Repos\\PHVDS\\microservices-dotnet6\\GeekShopping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
+        "projectUniqueName": "C:\\Users\\Paulo Henrique\\source\\repos\\PHVDS\\microservices-dotnet6\\GeekShopping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
         "projectName": "GeekShopping.IdentityServer",
-        "projectPath": "C:\\Users\\Paulo Henrique\\Source\\Repos\\PHVDS\\microservices-dotnet6\\GeekShopping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
+        "projectPath": "C:\\Users\\Paulo Henrique\\source\\repos\\PHVDS\\microservices-dotnet6\\GeekShopping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
         "packagesPath": "C:\\Users\\Paulo Henrique\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Paulo Henrique\\Source\\Repos\\PHVDS\\microservices-dotnet6\\GeekShopping\\GeekShopping.IdentityServer\\obj\\",
+        "outputPath": "C:\\Users\\Paulo Henrique\\source\\repos\\PHVDS\\microservices-dotnet6\\GeekShopping\\GeekShopping.IdentityServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Paulo Henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,7 +42,7 @@
           "dependencies": {
             "Duende.IdentityServer.AspNetIdentity": {
               "target": "Package",
-              "version": "[6.1.4, )"
+              "version": "[6.1.5, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
