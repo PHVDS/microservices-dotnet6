@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QXff+GAFUqgds1/DclgTtXS5trh+9uQ7hbON08XMoNJpLFE7t1Of0gHHAywEZ6ftnKE+7rxTl6GPWTK4Xm6V9g==",
+  "dgSpecHash": "si3N7KMd63qDTlhSn9So7GmarhvBORHRHGBq3eC8/iJB2IFKf3baAJefEGGNZUlXorFb6q4ViEeCXOA05KgOew==",
   "success": true,
   "projectFilePath": "C:\\Users\\Paulo Henrique\\source\\repos\\PHVDS\\microservices-dotnet6\\GeekShopping\\GeekShopping.ProductAPI\\GeekShopping.ProductAPI.csproj",
   "expectedPackageFiles": [
