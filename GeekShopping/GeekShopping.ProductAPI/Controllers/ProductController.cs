@@ -9,7 +9,7 @@ namespace GeekShopping.ProductAPI.Controllers
 	[ApiController]
 	public class ProductController : ControllerBase
 	{
-		private IProductRepository _repository;
+		private readonly IProductRepository _repository;
 
 		public ProductController(IProductRepository repository)
 		{
@@ -27,7 +27,7 @@ namespace GeekShopping.ProductAPI.Controllers
 		public async Task<ActionResult<ProductVO>> FindById(long id)
 		{
 			var product = await _repository.FindById(id);
-			if (product == null) return NotFound();
+			if (product.Id <= 0) return NotFound();
 			return Ok(product);
 		}
 
