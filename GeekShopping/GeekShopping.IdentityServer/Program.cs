@@ -22,14 +22,15 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<MySQLContext>()
     .AddDefaultTokenProviders();
 
-var build = builder.Services.AddIdentityServer(options =>
-    {
-        options.Events.RaiseErrorEvents = true;
-        options.Events.RaiseInformationEvents = true;
-        options.Events.RaiseFailureEvents = true;
-        options.Events.RaiseSuccessEvents = true;
-        options.EmitStaticAudienceClaim = true;
-    }
+var build = builder.Services.AddIdentityServer
+(options =>
+	{
+		options.Events.RaiseErrorEvents = true;
+		options.Events.RaiseInformationEvents = true;
+		options.Events.RaiseFailureEvents = true;
+		options.Events.RaiseSuccessEvents = true;
+		options.EmitStaticAudienceClaim = true;
+	}
 ).AddInMemoryIdentityResources(IdentityConfiguration.IdentityResources)
  .AddInMemoryApiScopes(IdentityConfiguration.ApiScopes)
  .AddInMemoryClients(IdentityConfiguration.Clients)
