@@ -45,6 +45,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Core": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.12.2, )"
+            },
+            "System.IdentityModel.Tokens.ValidatingIssuerNameRegistry": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
