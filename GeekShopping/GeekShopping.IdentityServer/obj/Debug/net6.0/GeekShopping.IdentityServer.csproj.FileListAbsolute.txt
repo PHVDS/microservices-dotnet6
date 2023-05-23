@@ -387,3 +387,4 @@ C:\Users\PAULO HENRIQUE\Documents\Visual Studio 2022\microservices-dotnet6\GeekS
 C:\Users\PAULO HENRIQUE\Documents\Visual Studio 2022\microservices-dotnet6\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
 C:\Users\PAULO HENRIQUE\Documents\Visual Studio 2022\microservices-dotnet6\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\PAULO HENRIQUE\Documents\Visual Studio 2022\microservices-dotnet6\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\PAULO HENRIQUE\Documents\Visual Studio 2022\microservices-dotnet6\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-DDE52E7259CA563DA9E04866E028E8BF.json
