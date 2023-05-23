@@ -86,3 +86,12 @@ C:\Users\PAULO HENRIQUE\Documents\Visual Studio 2022\microservices-dotnet6\GeekS
 C:\Users\PAULO HENRIQUE\Documents\Visual Studio 2022\microservices-dotnet6\GeekShopping\GeekShopping.Web\obj\Debug\net6.0\GeekShopping.Web.pdb
 C:\Users\PAULO HENRIQUE\Documents\Visual Studio 2022\microservices-dotnet6\GeekShopping\GeekShopping.Web\obj\Debug\net6.0\GeekShopping.Web.genruntimeconfig.cache
 C:\Users\PAULO HENRIQUE\Documents\Visual Studio 2022\microservices-dotnet6\GeekShopping\GeekShopping.Web\obj\Debug\net6.0\ref\GeekShopping.Web.dll
+C:\Users\PAULO HENRIQUE\Documents\Visual Studio 2022\microservices-dotnet6\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\PAULO HENRIQUE\Documents\Visual Studio 2022\microservices-dotnet6\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\PAULO HENRIQUE\Documents\Visual Studio 2022\microservices-dotnet6\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\PAULO HENRIQUE\Documents\Visual Studio 2022\microservices-dotnet6\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\PAULO HENRIQUE\Documents\Visual Studio 2022\microservices-dotnet6\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\PAULO HENRIQUE\Documents\Visual Studio 2022\microservices-dotnet6\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\PAULO HENRIQUE\Documents\Visual Studio 2022\microservices-dotnet6\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\PAULO HENRIQUE\Documents\Visual Studio 2022\microservices-dotnet6\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.ValidatingIssuerNameRegistry.dll
+C:\Users\PAULO HENRIQUE\Documents\Visual Studio 2022\microservices-dotnet6\GeekShopping\GeekShopping.Web\obj\Debug\net6.0\GeekShopping.Web.csproj.CopyComplete
