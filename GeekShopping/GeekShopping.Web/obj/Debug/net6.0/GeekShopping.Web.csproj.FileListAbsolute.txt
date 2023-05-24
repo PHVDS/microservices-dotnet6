@@ -95,3 +95,4 @@ C:\Users\PAULO HENRIQUE\Documents\Visual Studio 2022\microservices-dotnet6\GeekS
 C:\Users\PAULO HENRIQUE\Documents\Visual Studio 2022\microservices-dotnet6\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\PAULO HENRIQUE\Documents\Visual Studio 2022\microservices-dotnet6\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.ValidatingIssuerNameRegistry.dll
 C:\Users\PAULO HENRIQUE\Documents\Visual Studio 2022\microservices-dotnet6\GeekShopping\GeekShopping.Web\obj\Debug\net6.0\GeekShopping.Web.csproj.CopyComplete
+C:\Users\PAULO HENRIQUE\Documents\Visual Studio 2022\microservices-dotnet6\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
