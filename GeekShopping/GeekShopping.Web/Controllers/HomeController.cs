@@ -17,12 +17,19 @@ namespace GeekShopping.Web.Controllers
             _logger = logger;
             _productService = productService;
         }
-
-        public async Task<IActionResult> IndexAsync()
+        public async Task<IActionResult> Index()
 		{
-            var token = await HttpContext.GetTokenAsync("access_token");
+            var token = await HttpContext.GetTokenAsync("");
             var products = await _productService.FindAllProducts(token);
             return View(products);
+        }
+
+        [Authorize]
+        public async Task<IActionResult> Details(int id)
+		{
+            var token = await HttpContext.GetTokenAsync("access_token");
+            var model = await _productService.FindProductById(id, token);
+            return View(model);
         }
 
 		public IActionResult Privacy()
