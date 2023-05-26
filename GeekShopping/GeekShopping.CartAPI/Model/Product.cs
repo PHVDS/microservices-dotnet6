@@ -5,9 +5,13 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace GeekShopping.CartAPI.Model
 {
 	[Table("product")]
-	public class Product : BaseEntity
+	public class Product
 	{
-		[Column("name")]
+        [Key, DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [Column("id")]
+        public long Id { get; set; }
+
+        [Column("name")]
 		[Required]
 		[StringLength(150)]
 		public string Name { get; set; }
