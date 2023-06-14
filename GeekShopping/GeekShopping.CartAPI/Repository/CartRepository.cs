@@ -9,7 +9,7 @@ namespace GeekShopping.CartAPI.Repository
     public class CartRepository : ICartRepository
     {
         private readonly MySQLContext _context;
-        private IMapper _mapper;
+        private readonly IMapper _mapper;
 
         public CartRepository(MySQLContext context, IMapper mapper)
         {
