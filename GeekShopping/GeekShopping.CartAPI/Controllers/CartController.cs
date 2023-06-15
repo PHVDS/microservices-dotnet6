@@ -40,13 +40,28 @@ namespace GeekShopping.CartAPI.Controllers
         }
 
         [HttpDelete("remove-cart/{id}")]
-        public async Task<ActionResult<CartVO>> RemoveCart(int id) 
+        public async Task<ActionResult<CartVO>> RemoveCart(int id)
         {
             var status = await _repository.RemoveFromCart(id);
-            if(!status) return BadRequest(); 
-                return Ok(status);
+            if (!status) return BadRequest();
+            return Ok(status);
         }
 
-        
+        [HttpPost("apply-coupon")]
+        public async Task<ActionResult<CartVO>> ApplyCoupon(CartVO vO)
+        {
+            var status = await _repository.ApplyCoupon(vO.CartHeader.UserId, vO.CartHeader.CouponCode);
+            if (!status) return NotFound();
+            return Ok(status);
+        }
+
+        [HttpDelete("remove-coupon/{userId}")]
+        public async Task<ActionResult<CartVO>> RemoveCoupon(string userId)
+        {
+            var status = await _repository.RemoveCoupon(userId);
+            if (!status) return NotFound();
+            return Ok(status);
+        }
+
     }
 }
