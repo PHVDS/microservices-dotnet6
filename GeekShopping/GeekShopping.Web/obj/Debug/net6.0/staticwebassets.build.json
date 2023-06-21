@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gFizXZ6eYMjshSBzII8L299zSlNkNnhaYOPXlL7qTEY=",
+  "Hash": "w2R+16jtz3kxqhqiMt/b+EWFoclrq0Vvxyik1jpgfUQ=",
   "Source": "GeekShopping.Web",
   "BasePath": "_content/GeekShopping.Web",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\geek_shopping.png"
+    },
+    {
+      "Identity": "C:\\Users\\PAULO HENRIQUE\\Documents\\Visual Studio 2022\\microservices-dotnet6\\GeekShopping\\GeekShopping.Web\\wwwroot\\images\\order.png",
+      "SourceId": "GeekShopping.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PAULO HENRIQUE\\Documents\\Visual Studio 2022\\microservices-dotnet6\\GeekShopping\\GeekShopping.Web\\wwwroot\\",
+      "BasePath": "_content/GeekShopping.Web",
+      "RelativePath": "images/order.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\order.png"
     },
     {
       "Identity": "C:\\Users\\PAULO HENRIQUE\\Documents\\Visual Studio 2022\\microservices-dotnet6\\GeekShopping\\GeekShopping.Web\\wwwroot\\js\\site.js",

@@ -70,7 +70,7 @@ namespace GeekShopping.CartAPI.Controllers
             var cart = await _repository.FindCartByUserId(vO.UserId);
             if (cart == null) return NotFound();
             vO.CartDetails = cart.CartDetails;
-
+            vO.DateTime = DateTime.Now;
             //TASK RabbitMQ
 
             return Ok(vO);
