@@ -10,11 +10,13 @@ namespace GeekShopping.Web.Controllers
     {
         private readonly IProductService _productService;
         private readonly ICartService _cartService;
+        private readonly ICouponService _couponService;
 
-        public CartController(ICartService cartService, IProductService productService)
+        public CartController(ICouponService couponService, ICartService cartService, IProductService productService)
         {
             _cartService = cartService;
             _productService = productService;
+            _couponService = couponService;
         }
 
         [Authorize]
@@ -39,7 +41,7 @@ namespace GeekShopping.Web.Controllers
             return View();
         }
 
-        [HttpDelete]
+        [HttpPost]
         [ActionName("RemoveCoupon")]
         public async Task<IActionResult> RemoveCoupon()
         {
@@ -78,10 +80,19 @@ namespace GeekShopping.Web.Controllers
 
             if (response?.CartHeader != null)
             {
+                if(!string.IsNullOrEmpty(response.CartHeader.CouponCode))
+                {
+                    var coupon = await _couponService.GetCoupon(response.CartHeader.CouponCode, token);
+                    if (coupon?.CouponCode != null)
+                    {
+                        response.CartHeader.DiscountAmount = coupon.DiscountAmount;
+                    }
+                }
                 foreach (var detail in response.CartDetails)
                 {
                     response.CartHeader.PurchaseAmount += (detail.Product.Price * detail.Count);
                 }
+                response.CartHeader.PurchaseAmount -= response.CartHeader.DiscountAmount;
             }
 
             return response;
