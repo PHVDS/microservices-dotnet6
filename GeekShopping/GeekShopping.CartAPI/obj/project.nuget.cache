@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7lUzI5bt6J9teeCtSiNW8C3c6tLIOfAkFEBKyMTQwX7R6KcNX82tJzY7L2trlZmqETIBFwzXaPpC7k88ZxX2NQ==",
+  "dgSpecHash": "ZS87VLR8DYK3UZKkcQvahhgWRXz+fdXBnV9msb4pokiUuA7R08Uk/Uhv0QKnNv58u2CmlmV3fPG7WDFCI0OkKg==",
   "success": true,
   "projectFilePath": "C:\\Users\\PAULO HENRIQUE\\Documents\\Visual Studio 2022\\microservices-dotnet6\\GeekShopping\\GeekShopping.CartAPI\\GeekShopping.CartAPI.csproj",
   "expectedPackageFiles": [

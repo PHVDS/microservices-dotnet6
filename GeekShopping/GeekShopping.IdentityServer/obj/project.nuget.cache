@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jR/T450TZejNRIdmcibdDIBBaplnoLo2CFV3Xti2aOVkS7XRL86BqEufPyolT1sEzxF02+N3RAjEsbq7fecAow==",
+  "dgSpecHash": "34uYrW+iZwAhxruzgz71x0dQ95IV1GJSengArgERxof376ygYxuE4OStedmWdffMITm8t56KHq0pPIBM5NN+TA==",
   "success": true,
   "projectFilePath": "C:\\Users\\PAULO HENRIQUE\\Documents\\Visual Studio 2022\\microservices-dotnet6\\GeekShopping\\GeekShopping.IdentityServer\\GeekShopping.IdentityServer.csproj",
   "expectedPackageFiles": [

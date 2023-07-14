@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cHbHSzZPoQnHVXohiEnaPn+7zSKwpR9oli9Es10j0defauqEBcJMsW2rrsHhLX/f5NFF2YrT6ONQYuEtwE5qqA==",
+  "dgSpecHash": "uLAgoZ9d8I3cdiuDSHYrURnhFVlj+lW18sOpvenskYrKOpKo1MUWE5GgPHN89RmKUboxIA3pLc5jRMNl0kcTQQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\PAULO HENRIQUE\\Documents\\Visual Studio 2022\\microservices-dotnet6\\GeekShopping\\GeekShopping.CouponAPI\\GeekShopping.CouponAPI.csproj",
   "expectedPackageFiles": [
