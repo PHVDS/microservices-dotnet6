@@ -1,7 +1,7 @@
-﻿namespace GeekShopping.MessageBuss
+﻿namespace GeekShopping.MessageBus
 {
-    public class Class1
+    public interface IMessageBus
     {
-
+        Task PublicMessage(BaseMessage message, string queueName);
     }
 }
