@@ -1,5 +1,8 @@
-﻿using GeekShopping.MessageBus;
+﻿using GeekShopping.CartAPI.Messages;
+using GeekShopping.MessageBus;
 using RabbitMQ.Client;
+using System.Text;
+using System.Text.Json;
 
 namespace GeekShopping.CartAPI.Model.RabbitMQSender
 {
@@ -35,7 +38,14 @@ namespace GeekShopping.CartAPI.Model.RabbitMQSender
 
         private byte[] GetMessageAsByteArray(BaseMessage message)
         {
-            throw new NotImplementedException();
+            var options = new JsonSerializerOptions
+            { 
+                WriteIndented = true,
+            };
+
+            var json = JsonSerializer.Serialize((CheckoutHeaderVO)message, options);
+            var body = Encoding.UTF8.GetBytes(json);
+            return body;
         }
     }
 }
